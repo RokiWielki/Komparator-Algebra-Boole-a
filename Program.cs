@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using static System.Console;
 
+
 namespace Komparator
 {
     internal class Program
@@ -9,9 +10,9 @@ namespace Komparator
         static void Main(string[] args)
         {
             ManualTest();
-            Console.WriteLine();
-            Console.WriteLine("Aby kontynuować wciśnij dowolny przycisk...");
-            Console.ReadKey();
+            WriteLine();
+            WriteLine("Aby kontynuować wciśnij dowolny przycisk...");
+            ReadKey();
             AllPossibilities();
         }
         public static void ManualTest()
